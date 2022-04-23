@@ -33,7 +33,7 @@ fun truckTour(petrolpumps: Array<Array<Int>>): Int {
 fun main(args: Array<String>) {
     val n = readLine()!!.trim().toInt()
 
-    val petrolpumps = Array<Array<Int>>(n, { Array<Int>(2, { 0 }) })
+    val petrolpumps = Array(n) { Array(2) { 0 } }
 
     for (i in 0 until n) {
         petrolpumps[i] = readLine()!!.trimEnd().split(" ").map { it.toInt() }.toTypedArray()
