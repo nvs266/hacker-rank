@@ -1,4 +1,4 @@
-package day5
+package day6
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
